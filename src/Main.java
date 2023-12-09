@@ -4,9 +4,11 @@ public class Main {
         int yearMetro = 2005;
         String authorMetro = "Дмитрий Глуховский ";
 
+
         String nameLavr = " Lavr ";
         int yearLavr = 2021;
         String authorLavr = "Евгений Водолазкин ";
+
 
         String[] names = {" Metro ", " Lavr "};
         int[] year = {2005, 2021};
@@ -27,5 +29,25 @@ public class Main {
         System.out.println("Lavr.author = " + Lavr.getAuthor());
         Lavr.setYear(2022);
         System.out.println("lavr.getYear () = " + Lavr.getYear());
+
+        String authorsNameLavr = " Евгений ";
+        String surnameAuthorsLavr = " Водолазкин ";
+
+        String authorsNameMetro = "Дмитрий";
+        String surnameMetro = "Глуховский ";
+
+        String[] authors = {" Евгений ", " Дмитрий "};
+        String[] surname = {" Водолазкин  ", " Глуховский "};
+
+        System.out.println(" Имя - " + authors + " фамилия " + surname);
+        Author Дмитрий = new Author("Дмитрий", "Глуховский");
+        System.out.println("Метро.authors = " + Дмитрий.getAuthors());
+        System.out.println("Метро.surname = " + Дмитрий.getSurname());
+
+        Author Евгений = new Author("Евгений", "Водолазкин");
+        System.out.println("Lavr.authors = " + Евгений.getAuthors());
+        System.out.println("Lavr.surname = " + Евгений.getSurname());
+
     }
 }
+
