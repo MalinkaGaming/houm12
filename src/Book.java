@@ -8,17 +8,21 @@ public class Book {
         this.year = year;
         this.author = author;
     }
+
     public String getName() {
         return this.name;
     }
-        public int getYear () {
-            return this.year;
-            }
+
+    public int getYear() {
+        return this.year;
+    }
+
     public String getAuthor() {
         return this.author;
     }
-        public void setYear(int Year){
-            this.year = Year;
 
-        }
-        }
+    public void setYear(int Year) {
+        this.year = Year;
+
+    }
+}
