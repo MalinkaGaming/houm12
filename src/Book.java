@@ -14,7 +14,6 @@ public class Book {
     public int getYear() {
         return year;
     }
-
     public Author getAuthor() {
         return author;
     }

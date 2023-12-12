@@ -4,7 +4,6 @@ public class Main {
         Author firstAutor = new Author("Дмитрий", "Глуховский");
         Author scndAutor = new Author("Евгений", "Водолазкин");
 
-
         Book metro = new Book("Метро 2033", firstAutor, 2005);
         System.out.println(metro);
         Book lavr = new Book("Лавр", scndAutor, 2021);
